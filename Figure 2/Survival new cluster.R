@@ -1,21 +1,6 @@
 library(tidyverse)
 
-df1  <- xenaDownload %>%
-  mutate(sample = str_sub(sample, 1, -4))
 
-
-df1 <- df1 %>%
-  rename(Tumor = sample)
-
-head(df1)
-
-df2 <- inner_join(df1,All_data_Revision)
-
-head(df2)
-
-df2 <- df2 %>%
-  rename(age = age_at_initial_pathologic_diagnosis)
- write.csv(df2, "suvival_cluster_age_purity.csv")
  
  df2 <- suvival_cluster_age_purity
  
