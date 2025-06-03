@@ -9,7 +9,7 @@ library(tune)
 tidymodels_prefer()
 
 # Load data (adapt path as needed)
-DR <- read.csv("C:/Users/kd6/Google Drive/Work_MA/5 HDR_paper/lncRNA_allData_ov.csv")
+DR <- read.csv("lncRNA_allData_ov.csv")
 
 # Filter breast cancer samples and select relevant columns
 hrd_data <- DR %>% 
