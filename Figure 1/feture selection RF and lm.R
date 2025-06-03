@@ -5,7 +5,7 @@ library(randomForest)
 library(reprtree)
 
 # Set working directory and load data
-setwd("~/Desktop/Machine Learning/HDR-prediction/TCGA_DDR_Data_Resources_cell paper")
+
 PANCAN_HDR <- read_csv("DDR_lncRNA_Cell_paper")
 
 # Check dimensions of the dataset
