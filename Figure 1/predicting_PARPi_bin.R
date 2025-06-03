@@ -1,8 +1,7 @@
 #==============================================================================
 # PARPi7 Prediction using lncRNA Expression
 #==============================================================================
-# Author: [Your Name]
-# Date: [Current Date]
+
 # Description: This script analyzes the predictive power of 29 lncRNAs for 
 #              PARPi7 sensitivity in ovarian cancer data. It includes data 
 #              preprocessing, model training using various machine learning
@@ -56,18 +55,15 @@ set.seed(54321)
 # 2. DATA LOADING AND PREPROCESSING
 #==============================================================================
 
-# Set working directory (consider using here::here() instead for project organization)
-# setwd("~/Desktop/Machine Learning/HDR-prediction/TCGA_DDR_Data_Resources_cell paper")
 
-# Load preprocessed data with 29 lncRNAs
-# Update the file path to where your data is stored
-#lncRNAs29 <- read.csv("~/Desktop/Machine Learning/HDR-prediction/Data/29lncRNAs_with_all_features.csv")
+
+
 
 # Load necessary library
 library(dplyr)
 
 # Read the dataset
-lncRNA_allData_ov <- read.csv("C:/Users/kd6/Google Drive/Work_MA/5 HDR_paper/lncRNA_allData_ov.csv")
+lncRNA_allData_ov <- read.csv("lncRNA_allData_ov.csv")
 
 # Define column names explicitly as a vector
 lncRNA_columns <- c(
