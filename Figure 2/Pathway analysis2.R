@@ -23,7 +23,7 @@ library(GOSemSim)
 
 ## Load gene cluster data
 # Ersetzen Sie den Pfad mit Ihrem tatsächlichen Dateipfad
-GenesClusterEnriched <- read.csv("/Volumes/GoogleDrive/My Drive/Work_MA/5 HDR_paper/HRD_prediction_2021/TCGAanalyze/cluster genes enrichment/GenesCLusterEnriched.csv")
+GenesClusterEnriched <- read.csv("GenesCLusterEnriched.csv")
 
 ## Preview data structure
 print("Datenstruktur:")
